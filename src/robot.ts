@@ -18,3 +18,7 @@ export function rotateLeft() {
 export function rotateRight() {
     console.log('right');
 }
+
+export function stop() {
+    console.log('stop');
+}

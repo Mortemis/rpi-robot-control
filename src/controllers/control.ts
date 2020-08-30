@@ -21,3 +21,8 @@ export const right = (req: Request, res: Response) => {
     robot.rotateRight();
     res.status(200).json({msg: 'ok'});
 }
+
+export const stop = (req: Request, res: Response) => {
+    robot.stop();
+    res.status(200).json({msg: 'ok'});
+}

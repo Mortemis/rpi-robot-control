@@ -12,4 +12,6 @@ router.post('/left', controller.left);
 
 router.post('/right', controller.right);
 
+router.post('/stop', controller.stop);
+
 export = router;
