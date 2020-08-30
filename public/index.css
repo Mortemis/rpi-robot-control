@@ -3,16 +3,16 @@ body {
 }
 
 .button-panel {
-    border: 2px solid #5e5;
+    border: 2px solid #97f;
     padding: 2rem;
 }
 
 .btn {
     width: 100%;
 
-    color: #5e5;
+    color: #97f;
     background-color: #333;
-    border: 2px solid #5e5;
+    border: 2px solid #97f;
     
     margin: 0.2rem;
     padding-top: 3rem;
@@ -21,13 +21,14 @@ body {
 
 .btn:hover, .btn:active {
     color: #333;
-    background-color: #5e5;
+    background-color: #97f;
 }
 
 .btn:focus {
+    pointer-events: none;
     transition: 1s;
     transition-delay: 300ms;
-    color: #5e5;
+    color: #97f;
     background-color: #333;
 }
 
