@@ -1,0 +1,37 @@
+body {
+    background-color: #333;
+}
+
+.button-panel {
+    border: 2px solid #5e5;
+    padding: 2rem;
+}
+
+.btn {
+    width: 100%;
+
+    color: #5e5;
+    background-color: #333;
+    border: 2px solid #5e5;
+    
+    margin: 0.2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn:hover, .btn:active {
+    color: #333;
+    background-color: #5e5;
+}
+
+.btn:focus {
+    transition: 1s;
+    transition-delay: 300ms;
+    color: #5e5;
+    background-color: #333;
+}
+
+.fwd-block, .rotate-block, .back-block {
+    display: flex;
+    justify-content: center;
+}
